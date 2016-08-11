@@ -17,10 +17,10 @@
 #include <windows.h>
 #else
 #include <errno.h>
-#endif
-
 #include <complex.h>
 #define HAVE_COMPLEX
+#endif
+
 
 #ifdef __cplusplus
 # define EXTERN_C extern "C"
